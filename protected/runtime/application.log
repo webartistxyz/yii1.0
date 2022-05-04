@@ -1,0 +1,83 @@
+2022/05/03 14:46:06 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "events". in E:\xampp\htdocs\Yii1\yii-1.1.25.43e386\framework\web\CController.php:486
+Stack trace:
+#0 E:\xampp\htdocs\Yii1\yii-1.1.25.43e386\framework\web\CController.php(270): CController->missingAction('events')
+#1 E:\xampp\htdocs\Yii1\yii-1.1.25.43e386\framework\web\CWebApplication.php(282): CController->run('events')
+#2 E:\xampp\htdocs\Yii1\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('home/events')
+#3 E:\xampp\htdocs\Yii1\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yiiapp\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/home/events
+---
+2022/05/03 14:46:24 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "event". in E:\xampp\htdocs\Yii1\yii-1.1.25.43e386\framework\web\CController.php:486
+Stack trace:
+#0 E:\xampp\htdocs\Yii1\yii-1.1.25.43e386\framework\web\CController.php(270): CController->missingAction('event')
+#1 E:\xampp\htdocs\Yii1\yii-1.1.25.43e386\framework\web\CWebApplication.php(282): CController->run('event')
+#2 E:\xampp\htdocs\Yii1\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('home/event')
+#3 E:\xampp\htdocs\Yii1\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yiiapp\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/home/event
+---
+2022/05/03 14:46:29 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "event". in E:\xampp\htdocs\Yii1\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\xampp\htdocs\Yii1\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('event')
+#1 E:\xampp\htdocs\Yii1\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\yiiapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/event
+---
+2022/05/03 14:47:12 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "event". in E:\xampp\htdocs\Yii1\yii-1.1.25.43e386\framework\web\CController.php:486
+Stack trace:
+#0 E:\xampp\htdocs\Yii1\yii-1.1.25.43e386\framework\web\CController.php(270): CController->missingAction('event')
+#1 E:\xampp\htdocs\Yii1\yii-1.1.25.43e386\framework\web\CWebApplication.php(282): CController->run('event')
+#2 E:\xampp\htdocs\Yii1\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('dashboard/event')
+#3 E:\xampp\htdocs\Yii1\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yiiapp\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dashboard/event
+---
+2022/05/04 08:03:34 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "favicon.ico". in E:\xampp\htdocs\Yii1\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\xampp\htdocs\Yii1\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\xampp\htdocs\Yii1\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\yiiapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://dev.yiiapp.com/index.php/gii/default/login
+---
+2022/05/04 08:15:40 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yiiapp.tbl_migration' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_migration`.
+2022/05/04 08:25:11 [error] [php] Undefined variable: model (E:\xampp\htdocs\yiiapp\protected\views\events\create.php:12)
+Stack trace:
+#0 E:\xampp\htdocs\Yii1\yii-1.1.25.43e386\framework\web\CBaseController.php(126): require()
+#1 E:\xampp\htdocs\Yii1\yii-1.1.25.43e386\framework\web\CBaseController.php(95): EventsController->renderInternal()
+#2 E:\xampp\htdocs\Yii1\yii-1.1.25.43e386\framework\web\CController.php(872): EventsController->renderFile()
+#3 E:\xampp\htdocs\Yii1\yii-1.1.25.43e386\framework\web\CController.php(785): EventsController->renderPartial()
+#4 E:\xampp\htdocs\yiiapp\protected\controllers\EventsController.php(7): EventsController->render()
+#5 E:\xampp\htdocs\Yii1\yii-1.1.25.43e386\framework\web\actions\CInlineAction.php(49): EventsController->actionCreate()
+#6 E:\xampp\htdocs\Yii1\yii-1.1.25.43e386\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 E:\xampp\htdocs\Yii1\yii-1.1.25.43e386\framework\web\CController.php(286): EventsController->runAction()
+#8 E:\xampp\htdocs\Yii1\yii-1.1.25.43e386\framework\web\CController.php(265): EventsController->runActionWithFilters()
+#9 E:\xampp\htdocs\Yii1\yii-1.1.25.43e386\framework\web\CWebApplication.php(282): EventsController->run()
+#10 E:\xampp\htdocs\Yii1\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 E:\xampp\htdocs\Yii1\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 E:\xampp\htdocs\yiiapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/events/create
+in E:\xampp\htdocs\yiiapp\protected\views\events\create.php (12)
+in E:\xampp\htdocs\yiiapp\protected\controllers\EventsController.php (7)
+in E:\xampp\htdocs\yiiapp\index.php (13)
+2022/05/04 08:35:56 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "sites/login". in E:\xampp\htdocs\Yii1\yii-1.1.25.43e386\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\xampp\htdocs\Yii1\yii-1.1.25.43e386\framework\web\CWebApplication.php(141): CWebApplication->runController('sites/login')
+#1 E:\xampp\htdocs\Yii1\yii-1.1.25.43e386\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\yiiapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sites/login
+---
+2022/05/04 09:14:23 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yiiapp.user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `User`.
+2022/05/04 09:14:23 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yiiapp.user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `User`.
+2022/05/04 09:15:21 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yiiapp.user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `User`.
+2022/05/04 09:15:21 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yiiapp.user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `User`.
+2022/05/04 09:14:23 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yiiapp.user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `User`.
+2022/05/04 09:14:23 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yiiapp.user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `User`.
+2022/05/04 09:15:21 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yiiapp.user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `User`.
+2022/05/04 09:15:21 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yiiapp.user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `User`.
